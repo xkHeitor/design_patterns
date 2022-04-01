@@ -18,6 +18,5 @@ describe("Widget", () => {
         expect(view.button.color).toBe("white");
         expect(view.button.backgroundColor).toBe("black");
     });
-
-    
+ 
 });

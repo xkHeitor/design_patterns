@@ -1,0 +1,1 @@
+Converter a interface de uma classe em outra esperada para o cliente. O adapter permite que classe incompativéis trabalhem em conjunto;

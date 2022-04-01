@@ -5,7 +5,8 @@
     "main": "index.js",
     "scripts": {
       "test": "clear && tsc && jest ./dist",
-      "compile": "tsc"
+      "compile": "tsc",
+      "start": "clear; tsc; node dist/src/structural/adapter/main.js"
     },
     "keywords": [],
     "author": "",
