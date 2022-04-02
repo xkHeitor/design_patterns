@@ -1,5 +1,5 @@
 import axios from "axios";
-describe("Http", () => {
+describe("Adapter - Http", () => {
 
     it("should testing the API", async () => {
         const response = await axios({

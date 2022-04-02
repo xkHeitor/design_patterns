@@ -3,7 +3,7 @@ import LightWidgetFactory from "../../../src/creational/abstract_factory/light/L
 import View from "../../../src/creational/abstract_factory/View";
 import DraculaWidgetFactory from '../../../src/creational/abstract_factory/dracula/DraculaWidgetFactory';
 
-describe("Widget", () => {
+describe("Abstract Factory - Widget", () => {
 
     it("should create a one graphic interface with dark theme", () => {
         const view = new View(new DarkWidgetFactory());
