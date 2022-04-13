@@ -1,5 +1,5 @@
 import axios from "axios";
-describe("Adapter - Http", () => {
+describe.skip("Adapter - Http", () => {
 
     it("should testing the API", async () => {
         const response = await axios({
